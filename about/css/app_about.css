@@ -1,0 +1,181 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #FBFBFB;
+    font-family: 'Halant', serif;
+    overflow-x: hidden; }
+
+* {
+	box-sizing: border-box; }
+
+/*-------------------------------------------------------------NAV------------------------------------------------------------------*/
+.navbar {
+	margin-bottom: 0;
+	background-color: #2d2d30;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 3px;
+	opacity: 0.9; }
+
+.navbar li a, .navbar .navbar-brand { 
+	color: #d5d5d5 !important; }
+
+.navbar-nav li a:hover {
+	color: #fff !important;
+	background-color: #333; }
+
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color:#29292c !important; }
+
+.navbar-default .navbar-toggle {
+	border-color: transparent; }
+
+.nav-item .nav-link  {
+	text-align: center;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto; }
+
+/*-------------------------------------------------------------SECTION #4------------------------------------------------------------------*/
+.header_section4, .header_section5, .header_section6  { 
+	font-size: 44px;
+	color: #393d42;
+	text-align: center;
+	margin-top: 180px;
+	margin-bottom: 40px;
+	font-family: 'Playfair Display SC', serif;
+	text-transform: none; }
+
+.header2_section4,  .header2_section5 { 
+    font-size: 30px;
+	padding: 10px 10px;
+    color: #393d42;
+	text-align: center;
+	font-family: 'Playfair Display SC', serif; }
+
+.paragraph_section4 {
+	padding: 6px; }
+
+.img_about {
+	max-width: 100%;
+	height: auto; }
+
+/*-------------------------------------------------------------FOOTER-------------------------------------------------------------*/
+.footer {
+	background-color: #393d42; }
+
+.footer_header {
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	margin-bottom: 20px; }
+
+.p_footer {
+	text-align: center;
+	color: #393d42; }
+
+a {
+	text-align: center;
+	color: #111; }
+
+.social {			
+	color: #393d42; }
+
+.social:hover {
+	text-transform: none; }
+
+.text-center {
+	font-size: 12px; }
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+															RWD
+--------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and  (min-width: 768px) and (max-width: 1000px) {
+/*-------------------------------------------------------------NAV---------------------------------------------------------------*/
+.collapse {
+	padding-left: 30%; }
+
+.nav-item .nav-link {
+	width: 100%; }
+
+.nav {
+    padding-left: 300px; }
+
+/*-------------------------------------------------------------ABOUT---------------------------------------------------------------*/
+.section3 {
+	margin: 40px; }
+
+.header_section4 {
+    font-size: 60px;
+    color: #393d42;
+    text-align: center;
+    margin: 100px 0px 40px 0px;
+    font-family: 'Playfair Display SC', serif;
+    text-transform: none; }
+        
+.img_about {
+	margin-top: 80px; }
+}
+
+
+@media screen and  (min-width: 1001px) and (max-width: 1199px) {
+/*-------------------------------------------------------------NAV---------------------------------------------------------------*/
+.collapse {
+	padding-left: 100px; }
+}
+
+@media screen and  (min-width: 1200px) { 
+/*-------------------------------------------------------------NAV--------------------------------------------------------------*/
+.collapse {
+	padding-left: 320px; }
+/*------------------------------------------------------------ABOUT--------------------------------------------------------------*/
+.section3 {
+	margin: 40px; }
+
+.header_section4 {
+	font-size: 70px;
+    color: #393d42;
+    text-align: center;
+    margin-top: 100px;
+  	margin-bottom: 40px;
+   	font-family: 'Playfair Display SC', serif;
+   	padding: 40px 10px; }
+
+.header2_section4 {
+   	font-size: 40px;
+    padding: 10px 10px;
+   	color: #393d42;
+    text-align: center;
+   	font-family: 'Playfair Display SC', serif;
+   	margin-top: 60px; }
+
+.paragraph_section4 {
+   	width: 400px;
+	margin: 0px auto 100px auto; }
+       
+
+.container_img {
+ 	width: 500px;
+   	height: 500px;
+   	overflow: hidden; }
+
+.img_about {
+    max-width: 600px;
+	height: auto;
+	transition: all 1s ease-in-out; }
+
+.img_about:hover {
+	-webkit-transform: scale(1.25);
+  	-moz-transform: scale(1.25);
+  	-o-transform: scale(1.25);
+	transform: scale(1.25); }
+
+/*-------------------------------------------------------------FOOTER--------------------------------------------------------------*/
+.footer_header {
+	font-size: 26px; }
+
+.p_footer {
+	font-size: 16px; }
+}

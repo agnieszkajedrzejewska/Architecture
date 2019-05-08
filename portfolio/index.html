@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/app_portfolio.css">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css"><!--aby podpiąć fontello-->
+        <title>Architecture</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Architecture - Agnieszka Jaskuła">
+        <meta name="keywords" content="portfolio, cv, programowanie, front-end">
+        <link href="https://fonts.googleapis.com/css?family=Halant" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+         <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    </head>
+    <body>
+        <main>
+        <!--NAV-->
+        <nav class="navbar fixed-top navbar-expand-md  bg-dark navbar-dark">
+  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../about/index.html">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link " href="../portfolio/index.html">PORTFOLIO</a>
+                    <li class="nav-item"><a class="nav-link" href="../contact/index.html">CONTACT</a></li>                
+                  </ul>
+              </div>  
+        </nav>
+
+        <!--PORTFOLIO-->
+        <section> 
+            <h1 class="header_section6">Portfolio</h1>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="myBtnContainer">
+                      <button class="btn active bg-dark text-white" onclick="filterSelection('all')"> Show all</button>
+                      <button class="btn" onclick="filterSelection('famous')"> Famous buildings</button>
+                      <button class="btn" onclick="filterSelection('original')"> Original buildings</button>
+                      <button class="btn" onclick="filterSelection('inside')"> Inside Architecture</button>
+                      <button class="btn" onclick="filterSelection('house')"> House Architecture</button>
+                    </div>
+                  </div>
+                </div>
+
+
+            <!-- Portfolio Gallery Grid -->
+      
+
+              <!--FAMOUS-->
+              <div class="row">
+                  <div class="column famous">
+                      <div class="content">
+                          <a href = "img/portfolio_img1.jpg"><img src="img/portfolio_img1.jpg" alt="The Rock and Roll Hall of Fame and Museum, Cleveland, United States" style="width:100%"></a>
+                    <h4>The Rock and Roll Hall of Fame and Museum</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum.</p>
+                  </div>
+                </div>
+
+                <div class="column famous">
+                  <div class="content">
+                      <img src="img/portfolio_img3.jpg" alt="Sydney Opera House" style="width:100%">
+                      <h4>Sydney Opera House</h4>
+                       <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                 </div>
+                </div>
+
+ 
+  
+              <div class="column famous">
+                <div class="content">
+                  <img src="img/portfolio_img5.jpg" alt="Empire State Building, New York" style="width:100%">
+                  <h4>Empire State Building</h4>
+                  <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                </div>
+              </div>
+              <div class="column famous">
+                <div class="content">
+                <img src="img/portfolio_img6.jpg" alt="Burj Khalifa, Dubai
+
+            " style="width:100%">
+                  <h4>Burj Khalifa</h4>
+                  <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                </div>
+              </div>
+
+
+
+
+
+                <!--ORIGINAL-->
+                <div class="column original">
+                  <div class="content">
+                  <img src="img/portfolio_img1_original.jpg" alt="Chaoyang, China" style="width:100%">
+                    <h4>Chaoyang, China</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column original">
+                  <div class="content">
+                    <img src="img/portfolio_img2_original.jpg" alt="Axel Towers, København, Denmark" style="width:100%">
+                    <h4>Axel Towers, København, Denmark</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column original">
+                  <div class="content">
+                  <img src="img/portfolio_img3_original.jpg" alt="ArtScience Museum, Singapore" style="width:100%">
+                    <h4>ArtScience Museum, Singapore</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column original">
+                  <div class="content">
+                  <img src="img/portfolio_img4_original.jpg" alt="Seattle, United States" style="width:100%">
+                    <h4>Seattle, United States</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column original">
+                  <div class="content">
+                  <img src="img/portfolio_img5_original.jpg" alt="Aarhus Ø, Aarhus, Denmark" style="width:100%">
+                    <h4>Aarhus Ø, Aarhus, Denmark</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+              <!--INSIDE-->
+
+                <div class="column inside">
+                  <div class="content">
+                  <img src="img/portfolio_img1_inside.jpg" alt="Milwaukee Art Museum, Milwaukee, United States" style="width:100%">
+                    <h4>Milwaukee Art Museum, United States</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+                <div class="column inside">
+                  <div class="content">
+                  <img src="img/portfolio_img2_inside.jpg" alt="Barcelona, Spain" style="width:100%">
+                    <h4>Barcelona, Spain</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+                <div class="column inside">
+                  <div class="content">
+                  <img src="img/portfolio_img3_inside.jpg" alt="Guangzhou, China" style="width:100%">
+                    <h4>Guangzhou, China</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column inside">
+                  <div class="content">
+                  <img src="img/portfolio_img4_inside.jpg" alt="Roy Thomson Hall, Toronto, Canada" style="width:100%">
+                    <h4>Roy Thomson Hall, Toronto, Canada</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+                <div class="column inside">
+                  <div class="content">
+                  <img src="img/portfolio_img5_inside.jpg" alt="Montreal, Canada" style="width:100%">
+                    <h4>Montreal, Canada</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+              <!--HOUSE-->
+                <div class="column house">
+                  <div class="content">
+                    <a href="img/portfolio_img1_house.jpg"><img src="img/portfolio_img1_house.jpg" alt="Gran Vía, Madrid, Spain"style="width:100%"></a>
+                    <h4>Gran Vía, Madrid, Spain</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column house">
+                  <div class="content">
+                    <a href="img/portfolio_img2_house.jpg"><img src="img/portfolio_img2_house.jpg" alt="Zürich, Switzerland"style="width:100%"></a>
+                    <h4>Zürich, Switzerland</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+                <div class="column house">
+                  <div class="content">
+                    <a href="img/portfolio_img3_house.jpg"><img src="img/portfolio_img3_house.jpg" alt="Gran Vía, Madrid, Spain"style="width:100%"></a>
+                    <h4>Gran Vía, Madrid, Spain</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+                <div class="column house">
+                  <div class="content">
+                     <a href ="img/portfolio_img4_house.jpg"><img src="img/portfolio_img4_house.jpg" alt="Madrid, Spain"style="width:100%"></a>
+                    <h4>Madrid, Spain</h4>
+                    <p>Nunc nisl ex, eleifend et mauris non, blandit pharetra metus. Pellentesque nulla nisl, egestas non efficitur in, ultricies a ipsum. Phasellus convallis fringilla nibh non volutpat</p>
+                  </div>
+                </div>
+
+
+
+              <!-- END GRID -->
+              </div>
+
+              <!-- END MAIN -->
+              </div>
+            </div>
+           </section><hr>
+         </main>
+
+             <section>
+              <div class="container">
+                   <div class="row">
+                      <div class="col-md-4">
+                          <h2 class="footer_header">Site Menu</h2>
+                          <a href="index_home.html"><p class="p_footer">Home</p></a>
+                          <a href="../about/index.html"><p class="p_footer">About</p></a>
+                          <a href="../portfolio/index.html"><p class="p_footer">Portfolio</p></a>
+                          <a href="../contact/index.html"><p class="p_footer">Contact</p></a>
+                      </div>
+
+                      <div class="col-md-4">
+                          <h2 class="footer_header">Contact Us</h2>
+                          <p class="p_footer"><i class="icon-call"></i> 555-555-555</p>
+                          <p class="p_footer"><i class="icon-mail"></i> agnieszka.jaskula88@gmail.com</p>
+                          <p class="p_footer social"><i class="icon-location"></i> Zefirowa 17/18, Wrocław</p>
+                          <p class="p_footer"><i class="icon-clock"></i> Mon-Sat 7am -7pm</p>
+                      </div>
+
+                      <div class="col-md-4">
+                          <h2 class="footer_header">Connect With Us</h2>
+                          <a href="https://www.facebook.com/" target="blank"><p class="social"><i class="icon-facebook"></i> Facebook</p></a>
+                          <a href="https://https://www.instagram.com/_agnesz/" target="blank"><p class="social"><i class="icon-instagram"></i> Instagram</p></a>
+                          <a href="https://twitter.com/" target="blank"><p class="social"><i class="icon-twitter"></i> Twitter</p></a>
+                          <a href="https://www.behance.net/onboarding/adobe" target="blank"><p class="social"><i class="icon-behance"></i> Behance</p></a>
+                          <a href="https://github.com/agnieszkajedrzejewska" target="blank"><p class="social"><i class="icon-github-circled"></i> GitHub</p></a>              
+                      </div>
+                    </div>
+                </div>
+            </section><hr>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="bg-ligth" >
+         <div class="container">
+            <p class="text-center text-dark"> Copyright &copy 2019, All Rights Reserved - Agnieszka Jaskuła</p>
+        </div>
+    </footer><hr>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/portfolio.js"></script>
+            
+    </body>
+</html>

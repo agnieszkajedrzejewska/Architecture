@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css"><!--aby podpiąć fontello-->
+        <title>Architecture</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Architecture - Agnieszka Jaskuła">
+		<meta name="keywords" content="portfolio, cv, programowanie, front-end">
+        <link href="https://fonts.googleapis.com/css?family=Halant" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" type="image/png" href="img/logo.png">
+		<style>
+             .img_header {
+                width: 100%;
+                height: 700px;
+                background-image: url("img/3.2.jpg");
+                background-size: cover;
+                background-attachment: fixed;
+                display: table; 
+                margin: 0px  0px 40px 0px; }
+
+         
+            .section2 {
+                width: 100%;
+                height: 400px;
+                background-image: url("img/bg.jpg");
+                background-size: cover;
+                background-attachment: fixed;
+                display: table; 
+                margin: 40px  0px 40px 0px; }
+
+
+        /*RWD*/
+        @media screen and  (min-width: 500px) and (max-width: 1200px) { 
+            .img_header{
+                height: 900px;
+                background-image: url("img/4.3.jpg"); }
+        }
+
+        @media screen and  (min-width: 1200px) { 
+           .img_header {
+            height: 900px;
+            background-image: url("img/5.jpg"); }
+
+           /*SECTION#2*/
+            .section2 {
+            width: 100%;
+            height: 400px;
+            background-image: url("img/bg1.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            display: table; 
+            margin: 40px  0px 40px 0px; }  
+        }
+
+        </style>	
+	</head>
+
+	<body>
+    <main>
+        <!--------------------------------------------------------------------NAV-------------------------------------------------------------------------->
+        <nav class="navbar fixed-top navbar-expand-md  bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a class="nav-link" href="home/index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about/index.html">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link " href="portfolio/index.html">PORTFOLIO</a>
+                    <li class="nav-item"><a class="nav-link" href="contact/index.html">CONTACT</a></li> 
+                </ul>
+              </div>  
+        </nav>
+        
+
+        <!--------------------------------------------------------------------HEADER------------------------------------------------------------------------>
+        <header>
+            <div class="img_header">
+                <h1 class="main_header">Architecture</h1>
+                <p class="main_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget ultricies massa. Aenean tincidunt varius pulvinar.</p>
+                <a href="about/index.html"><button class="button">Read more</button></a>
+            </div>
+        </header><hr>
+    
+    
+
+    <!--------------------------------------------------------------------SECTION #1-------------------------------------------------------------------------->
+    <section class="mobile">
+        <div class="section1">
+            <h1 class="header_section">The most important things</h1>
+            <figure class="img_section1">
+                <a href="portfolio/index.html"><img class="photos_main" id="first_pic_section1" src="img/img_1_sec_1.jpg" alt="Famous"></a>
+                <figcaption  class="figcaption_header">Famous buildings</figcaption>
+            </figure>
+        
+            <figure class="img_section2">
+                <a href="portfolio/index.html"><img class="photos_main" id="second_pic_section1" src="img/img_4_sec_1.jpg" alt="Original"></a>
+                <figcaption class="figcaption_header">Original buildings</figcaption>
+            </figure>
+        
+            <figure class="img_section3">
+                <a href="portfolio/index.html"><img class="photos_main" id="third_pic_section1" src="img/img_2_sec_1.jpg" alt="Inside Architecture"></a>
+                <figcaption class="figcaption_header">Inside Architecture</figcaption>
+            </figure>
+       
+            <figure class="img_section4">
+                <a href="portfolio/index.html"><img class="photos_main" id="four_pic_section1" src="img/img_3_sec_1.jpg" alt="Houses"></a>
+                <figcaption class="figcaption_header">House Architecture</figcaption>
+            </figure>
+      </div><!--section1-->
+    </section><hr>
+
+    <!--------------------------------------------------------------------SECTION #2-------------------------------------------------------------------------->
+    <section>
+        <div class="section2">
+            <h1 class="header_section2">Your Best Choice</h1>
+            <p class="paragraph_section2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor libero mollis dolor condimentum, eu semper enim scelerisque. Etiam tortor ligula, vestibulum at ligula sed, tristique sollicitudin turpis. </p>
+            <a href="contact/index.html">
+                <button class="button_section2">Read more</button>
+            </a>
+        </div>
+    </section><hr>
+
+
+    <!--------------------------------------------------------------------FOOTER-------------------------------------------------------------------------->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="footer_header">Site Menu</h2>
+                    <a href="index_home.html"><p class="p_footer">Home</p></a>
+                    <a href="about/index.html"><p class="p_footer">About</p></a>
+                    <a href="portfolio/index.html"><p class="p_footer">Portfolio</p></a>
+                    <a href="contact/index.html"><p class="p_footer">Contact</p></a>
+                </div>
+
+                <div class="col-md-4">
+                    <h2 class="footer_header">Contact Us</h2>
+                    <p class="p_footer"><i class="icon-call"></i> 555-555-555</p>
+                    <p class="p_footer"><i class="icon-mail"></i> agnieszka.jaskula88@gmail.com</p>
+                    <p class="p_footer social"><i class="icon-location"></i> Zefirowa 17/18, Wrocław</p>
+                    <p class="p_footer"><i class="icon-clock"></i> Mon-Sat 7am -7pm</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2 class="footer_header">Connect With Us</h2>
+                    <a href="https://www.facebook.com/" target="blank"><p class="social"><i class="icon-facebook"></i> Facebook</p></a>
+                    <a href="https://https://www.instagram.com/_agnesz/" target="blank"><p class="social"><i class="icon-instagram"></i> Instagram</p></a>
+                    <a href="https://twitter.com/" target="blank"><p class="social"><i class="icon-twitter"></i> Twitter</p></a>
+                    <a href="https://www.behance.net/onboarding/adobe" target="blank"><p class="social"><i class="icon-behance"></i> Behance</p></a>
+                    <a href="https://github.com/agnieszkajedrzejewska" target="blank"><p class="social"><i class="icon-github-circled"></i> GitHub</p></a>
+                    
+                </div>
+            </div>
+        </div>
+    </section><hr>
+    </main>
+
+    <footer class="bg-ligth" >
+         <div class="container">
+            <p class="text-center">Copyright &copy 2019, All Rights Reserved - Agnieszka Jaskuła</p>
+        </div>
+    </footer><hr>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        //HEADER
+        $(".main_header").hide();
+        $(".main_paragraph").hide();
+        $(".button").hide();
+        
+
+        $(".main_header").fadeIn(1000, function(){
+            $(".main_paragraph").fadeIn();
+            $(".button").fadeIn();
+
+        });
+
+        //SECTION#1
+       //#1 zdjęcie - efekr rollover
+
+        $(document).ready(function(){ 
+
+            var newPhoto = $("<img>");
+            newPhoto.src = "img/img_1.2_sec_1.jpg"
+            var oldSrc = $("#first_pic_section1").attr("src");
+            $("#first_pic_section1").hover(
+            function(){
+                $(this).attr('src', newPhoto.src);
+            },
+            
+            function() {
+                $(this).attr('src', oldSrc);
+            });
+
+        });
+
+         //SECTION#1
+       //#2 zdjęcie - efekr rollover
+
+        $(document).ready(function(){ 
+
+            var newPhoto = $("<img>");
+            newPhoto.src = "img/img_4.1_sec_1.jpg"
+            var oldSrc = $("#second_pic_section1").attr("src");
+            $("#second_pic_section1").hover(
+            function(){
+                $(this).attr('src', newPhoto.src);
+            },
+            
+            function() {
+                $(this).attr('src', oldSrc);
+            });
+
+        });
+
+        //SECTION#1
+       //#3 zdjęcie - efekr rollover
+
+        $(document).ready(function(){ 
+
+            var newPhoto = $("<img>");
+            newPhoto.src = "img/img_2.1_sec_1.jpg"
+            var oldSrc = $("#third_pic_section1").attr("src");
+            $("#third_pic_section1").hover(
+            function(){
+                $(this).attr('src', newPhoto.src);
+            },
+            
+            function() {
+                $(this).attr('src', oldSrc);
+            });
+
+        });
+
+        //SECTION#1
+       //#4 zdjęcie - efekr rollover
+
+        $(document).ready(function(){ 
+
+            var newPhoto = $("<img>");
+            newPhoto.src = "img/img_3.1_sec_1.jpg"
+            var oldSrc = $("#four_pic_section1").attr("src");
+            $("#four_pic_section1").hover(
+            function(){
+                $(this).attr('src', newPhoto.src);
+            },
+            
+            function() {
+                $(this).attr('src', oldSrc);
+            });
+
+        });
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+body, html {
+   margin: 0;
+   padding: 0;
+   background-color: #FBFBFB;
+   font-family: 'Halant', serif;
+   overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+}
+/*------------------------------------------------------------------NAV------------------------------------------------------------------*/
+.navbar {
+	margin-bottom: 0;
+	background-color: #2d2d30;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 3px;
+	opacity: 0.9;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+	color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+	color: #fff !important;
+	background-color: #333;
+}
+
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color:#29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.nav-item .nav-link  {
+	text-align: center;
+	width: 200px;
+	margin: 0px auto;
+}
+
+.btn {
+	width: 160px;
+	margin: 20px 0px 20px 100px;
+}
+/*-----------------------------------------------------------------HEADER---------------------------------------------------------------*/
+.header_section6  { 
+	font-size: 44px;
+	color: #393d42;
+	text-align: center;
+	margin-top: 180px;
+	margin-bottom: 40px;
+	font-family: 'Playfair Display SC', serif;
+	text-transform: none;
+}
+
+.header_message {
+	text-align: center;
+	margin: 20px auto 40px auto;
+	font-family: 'Playfair Display SC', serif;
+}
+/*--------------------------------------------------------------CONTACT------------------------------------------------------------------*/
+.section_contact {
+	margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------------FOOTER--------------------------------------------------------------------*/
+.footer {
+	background-color: #393d42;
+}
+
+.footer_header {
+	font-family: 'Playfair Display SC', serif;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.p_footer {
+	text-align: center;
+	color: #393d42;
+}
+
+a {
+	text-align: center;
+	color: #111;
+}
+
+.social {			
+	color: #393d42;
+}
+
+.social:hover {
+	text-transform: none;
+}
+
+.text-center {
+	font-size: 12px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+                                                                  RWD                                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                                     600px - 767px                                                                */
+
+@media screen and  (min-width: 768px) and (max-width: 1199px) { 
+/*-------------------------------------------------------------NAV---------------------------------------------------------------*/
+.collapse {
+	padding-left: 30%;
+}
+
+.btn {
+	margin: 20px 0px 20px 80px;
+}
+}
+
+/*                                                     768px - 1000px                                                                */
+	
+ @media screen and  (min-width: 768px) and (max-width: 1000px) { 
+ /*-------------------------------------------------------------NAV---------------------------------------------------------------*/
+ .nav-item .nav-link  {
+	width: 100%;	
+}
+}
+
+/*                                    1000px - 1199px                                                                */
+       
+@media screen and  (min-width: 1001px) and (max-width: 1199px) {
+/*-------------------------------------------------------------NAV---------------------------------------------------------------*/
+.collapse {
+	padding-left: 100px;
+}
+.btn {
+	margin: 20px 0px 20px 140px;
+}
+}
+
+/*                                                    > 1200px                                                                */
+	
+ @media screen and (min-width: 1200px) { 
+.collapse {
+	margin-left: 22%; 
+}
+
+.btn {
+	margin: 20px 0px 20px 260px;
+}
+
+.header_section6 {
+	font-size: 70px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	padding: 40px 10px;
+
+		}
+}
